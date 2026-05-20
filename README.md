@@ -7,8 +7,17 @@ Minecraft Bedrock Edition için geliştirilmiş, tamamen istemci taraflı (clien
 * **X-Ray Görünümü:** Gereksiz blokların render yükünü azaltarak maden konumlarını optimize eder.
 * **Fullbright:** Gölgelendirme motorunu optimize ederek karanlık alanlarda maksimum netlik sağlar.
 
-## 🛠️ Kurulum
-1. Bu depodaki tüm dosyaları `.zip` olarak indirin.
-2. İndirdiğiniz dosyanın uzantısını `.mcpack` olarak değiştirin ve Minecraft ile açın.
-3. Alternatif olarak, **MT Manager** kullanarak dosyaları doğrudan oyunun kaynak klasörüne (`games/com.mojang/resource_packs/`) aktarabilirsiniz.
-4. Oyun içi ayarlardan "Global Kaynaklar" (Global Resources) kısmına gelip **EfeClient UI** paketini aktif edin.
+## ⚠️ ÖNEMLİ KURULUM UYARISI
+Yeni nesil Android sürümlerindeki dosya erişim kısıtlamaları (özellikle `Android/data` klasörü) nedeniyle, bu mod normal dosya yöneticileriyle veya `.mcpack` tıklamasıyla **kurulamaz**. Modu sorunsuz kurabilmek için **sadece MT Manager** adlı uygulamayı kullanmanız gerekmektedir.
+
+🚨 **DİKKAT - Doğru Uygulamayı İndirin:**
+* **Play Store'da Yoktur:** MT Manager uygulaması Google Play Store'da bulunmaz. İnternetten APK olarak güvenilir kaynaklardan indirmelisiniz.
+* **Sahte Uygulamalara Kanmayın:** Piyasada "MT Manager +" veya benzer isimlerde dolanan klon/sahte uygulamalar vardır. İndireceğiniz uygulamanın adı orijinal haliyle sadece **"MT Manager"** olmalıdır.
+
+## 🛠️ Kurulum Adımları
+1. Bu depodaki ana sayfada yer alan yeşil **`<> Code`** butonuna basın ve **`Download ZIP`** seçeneğine tıklayarak dosyayı indirin. *(Mobildeyseniz tarayıcınızı 'Masaüstü Sitesi' moduna alarak bu butonu görebilirsiniz).*
+2. Orijinal **MT Manager** uygulamasını açın ve indirdiğiniz ZIP dosyasının içindeki klasörleri dışarı çıkartın.
+3. MT Manager'ın çift pencereli görünümünü kullanarak, çıkarttığınız mod dosyalarını oyunun kaynak klasörüne kopyalayın:
+   👉 `Android / data / com.mojang.minecraftpe / files / games / com.mojang / resource_packs / EfeClient` 
+   *(Not: Android 16 gibi güncel sürümlerde yeni klasör oluşturma hatası alırsanız, dosyaları halihazırda var olan, izin verilmiş eski bir mod klasörünün içine kopyalayarak da çalıştırabilirsiniz).*
+4. Oyuna girin, **Ayarlar > Global Kaynaklar** kısmına gelin ve **EfeClient UI** paketini aktif edin. İyi oyunlar!
