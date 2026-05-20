@@ -2,11 +2,21 @@
   "namespace": "efe_client_menu",
   "main_panel": {
     "type": "panel",
+    "size": [150, 100],
     "controls": [
       {
         "xray_toggle": {
           "type": "button",
-          "text": "X-Ray: ACIK",
+          "offset": [0, -15],
+          "size": [100, 20],
+          "controls": [
+            {
+              "label": {
+                "type": "label",
+                "text": "X-Ray: ACIK"
+              }
+            }
+          ],
           "button_mappings": [
             {
               "from_button_id": "button.menu_select",
@@ -19,7 +29,16 @@
       {
         "fullbright_toggle": {
           "type": "button",
-          "text": "Fullbright: ACIK",
+          "offset": [0, 15],
+          "size": [100, 20],
+          "controls": [
+            {
+              "label": {
+                "type": "label",
+                "text": "Fullbright: ACIK"
+              }
+            }
+          ],
           "button_mappings": [
             {
               "from_button_id": "button.menu_select",
