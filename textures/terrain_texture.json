@@ -1,0 +1,17 @@
+{
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "EfeClient",
+  "texture_data": {
+    "stone": {
+      "textures": "textures/blocks/invisible"
+    },
+    "dirt": {
+      "textures": "textures/blocks/invisible"
+    },
+    "grass_top": {
+      "textures": "textures/blocks/invisible"
+    }
+  }
+}
+
