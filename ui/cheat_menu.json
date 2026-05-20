@@ -1,46 +1,34 @@
-"cheat_menu_panel": {
-  "type": "panel",
-  "size": [150, 200],
-  "anchor_from": "center",
-  "anchor_to": "center",
-  "layer": 25,
-  "controls": [
-    {
-      "background": {
-        "type": "image",
-        "texture": "textures/ui/white",
-        "color": [0.1, 0.0, 0.2, 0.8],
-        "size": ["100%", "100%"]
+{
+  "namespace": "efe_client_menu",
+  "main_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "xray_toggle": {
+          "type": "button",
+          "text": "X-Ray: ACIK",
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_select",
+              "to_button_id": "button.efe_xray_toggle",
+              "mapping_type": "focused"
+            }
+          ]
+        }
+      },
+      {
+        "fullbright_toggle": {
+          "type": "button",
+          "text": "Fullbright: ACIK",
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_select",
+              "to_button_id": "button.efe_light_toggle",
+              "mapping_type": "focused"
+            }
+          ]
+        }
       }
-    },
-    {
-      "title": {
-        "type": "label",
-        "text": "§dEfeClient v1.0",
-        "offset": [0, 10],
-        "anchor_from": "top_middle",
-        "anchor_to": "top_middle"
-      }
-    },
-    {
-      "xray_button": {
-        "type": "button",
-        "size": [130, 25],
-        "offset": [0, 40],
-        "anchor_from": "top_middle",
-        "anchor_to": "top_middle",
-        "controls": [
-          { "label": { "type": "label", "text": "X-Ray Mode" } }
-        ],
-        "button_mappings": [
-          {
-            "from_button_id": "button.menu_select",
-            "to_button_id": "button.xray_toggle",
-            "mapping_type": "focused"
-          }
-        ]
-      }
-    }
-  ]
+    ]
+  }
 }
-
