@@ -11,7 +11,12 @@
     },
     "grass_top": {
       "textures": "textures/blocks/invisible"
+    },
+    "grass_side": {
+      "textures": "textures/blocks/invisible"
+    },
+    "grass_side_carried": {
+      "textures": "textures/blocks/invisible"
     }
   }
 }
-
