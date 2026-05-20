@@ -1,25 +1,27 @@
-"cheat_menu_toggle_button": {
-  "type": "button",
-  "anchor_from": "top_left",
-  "anchor_to": "top_left",
-  "offset": [10, 50],
-  "size": [40, 20],
-  "layer": 20,
-  "controls": [
-    {
-      "button_label": {
-        "type": "label",
-        "text": "§dEfeClient",
-        "color": [1.0, 0.0, 1.0]
+{
+  "namespace": "hud",
+  "cheat_menu_toggle_button": {
+    "type": "button",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [10, 50],
+    "size": [40, 20],
+    "layer": 20,
+    "controls": [
+      {
+        "button_label": {
+          "type": "label",
+          "text": "§dEfeClient",
+          "color": [1.0, 0.0, 1.0]
+        }
       }
-    }
-  ],
-  "button_mappings": [
-    {
-      "from_button_id": "button.menu_select",
-      "to_button_id": "button.custom_cheat_toggle",
-      "mapping_type": "focused"
-    }
-  ]
+    ],
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.custom_cheat_toggle",
+        "mapping_type": "focused"
+      }
+    ]
+  }
 }
-
